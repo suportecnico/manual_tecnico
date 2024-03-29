@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font: normal 20px Arial;
+        }
+
+        div#area {
+            background-color: yellow;
+            color: black;
+            width: 150px;
+            height: 150px;
+            line-height: 150px;
+            text-align: center;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="area"> <!-- O método que está sendo declarado na div 
+    está chamnado a função no script -->
+    <!--Esses comandos são no HTML onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" -->
+    <!-- Esse comando é no JS addEventListener('click', clicar); -->
+        Interaja...
+    </div>
+    <script>
+
+        var a = window.document.getElementById("area"); // Aqui eu fiz a ligação com a div atravéz da raiz DOM 
+        a.addEventListener('click', clicar); /* Esse método EventListener (ouvidores) deixa o script prestando atênção nos eventos predefinidos */
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+
+         function clicar () { // Aqui estou chamando a ação
+            a.innerText = 'Clicou!' // Aqui mudou o texto do elemento após o clique
+            a.style.background = 'green' // Aqui mudou a cor do elemento após a ação
+            a.style.color = 'white' // Aqui mudou a cor da letra após a ação
+        }
+        function entrar () {
+            a.innerText = 'Entrou'
+            a.style.background = 'blue'
+            a.style.color = 'white'
+        }
+        function sair () {
+            a.innerText = 'Interajiu'
+            a.style.background = 'yellow'
+            a.style.color = 'black'
+        }
+    </script>
+</body>
+</html> 

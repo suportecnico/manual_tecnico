@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="/estilo/stylle.css"> 
+  <link rel="shortcut icon" href="/suporte/imagens/manual.ícone.ico" type="image/x-icon">
+ <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centrais Active 8_20_32</title>
+</head>
+<body>
+  <div class="home"> 
+    <a href="/suporte/alarme/home_alarme.html">Home&#x1F3E0;</a>
+    </div>
+  <h1>Abaixo temos a lista dos principais problemas e  causas; progamações e opções gerais</h1>
+  <div class="listas">
+  <details>
+    <summary class="lista">Problemas</summary>
+
+     <ol>
+      <li>NUMERO DESCRIÇÃO DO PROBLEMA POSSÍVEIS CAUSAS</li>
+      <strong> 
+<ul>
+  <li>01 AC
+    -Não há energia elétrica no local.
+    -O fusível de proteção da placa de rede está queimado.</li>
+    <li>02 Bateria 
+      -A bateria está desconectada, invertida ou com carga baixa.
+      -A bateria não armazena carga corretamente e pode estar com defeito.</li>
+      <li>03 Sirene -A sirene está desconectada ou ligada sem o resistor de fim de linha.</li>
+      <li>04 Teclado -Algum teclado foi retirado.
+        -Teclado sem fio fora do alcance da central de alarme.</li>
+        <li>05 Curto de Zona
+          -Sensor com fio está com a fiação em curto.
+          -Sensor com fio está sem ou com o resistor de fim de linha errado.</li>
+        <li>06 Linha telefônica -A linha telefônica está desconectada do alarme.</li>
+        <li>07 Comunicação com monitoramento por GPRS
+          -O SIM CARD está sem créditos ou com limite de dados excedido.
+-Problema na internet da estação monitoramento.
+        </li>
+        <li>08 Comunicação com monitoramento por Ethernet
+          -A faixa de porta de saída (end 744) pode estar bloqueada por firewall.
+          -Problema na internet da estação monitoramento.</li>
+        <li>09 SMS
+          -O SIM CARD está sem créditos, ou o chip não é programado para enviar SMS.
+          Telefone de destino programado errado ou sem o código DDD</li>
+        <li>10 Módulo de celular
+          -O módulo de celular está com defeito ou desligado do conector.
+          -Sem SIM CARD ou PIN errado se o SIM CARD solicitar o código PIN
+          -Sem nível de sinal de celular ou operadora não encontrada.</li>
+        <li>11 Cabo de rede -O cabo da rede Ethernet está desconectado.</li>
+        <li>12 DHCP -A central não conseguiu obter o endereço IP automaticamente.</li>
+        <li>13 Tamper
+          -A chave tamper de algum sensor está aberta.
+          -Os resistores de fim de linha estão invertidos ou com ligação errada.</li>
+        <li>14 Saída Auxiliar -Está com problema na saída de alimentação da central de alarme (+ e -).</li>
+        <li>15 Supervisão sensor sem fio -Algum sensor sem fio está fora do alcance da central de alarme.
+        </li>
+        <li> 16 Bateria fraca de dispositivo sem fio -Algum sensor sem fio, teclado ou controle remoto está com a bateria fraca.
+        </li>
+        <li> 17 Chip de celular -Sem SIM CARD ou PIN errado se o SIM CARD solicitar o código PIN
+        </li>
+        <li> 18 Nível de sinal ou operadora -Sem nível de sinal de celular ou operadora não encontrada.
+        </li>
+        <li>  19 Módulo Ethernet ou rede sem fio -A central está sem comunicação com o módulo de Ethernet ou de rede sem fio.
+        </li>
+        <li> 20 Notificação -Falhou o envio da notificação.
+        </li>
+<li>21 DDNS
+-O servidor DDNS não está respondendo.
+-O usuário e senha estão errados.
+-A faixa de porta de saída (end 744) pode estar bloqueada por firewall.</li>
+<li>...</li>
+<li>23 Conflito de IP -Outro equipamento está usando o mesmo IP da central de alarme.
+</li>
+<li> 24 SSID não encontrado -Não foi encontrado o ponto de acesso para conexão sem fio ou o nome dele foi programado errado.
+</li>
+<li> 25 Autenticação sem fio não suportada -A central não suporta a autenticação do ponto de acesso.
+</li>
+<li> 26 Senha da rede sem fio inválida -O ponto de acesso recusou a senha da central de alarme.
+</li>
+<li>...</li>
+<li> 28 Problema de AC no teclado sem fio -O teclado sem fio está sem energia elétrica.
+</li>
+<li> 29 Problema no servidor DNS -Algum endereço IP não consegue ser resolvido.
+</li>
+<li> 30 Problema no Endereço de destino 1 -IP de destino ou porta programada errada.
+-Porta de destino fechada.</li>
+<li>31 Problema no Endereço de destino 2 -IP de destino ou porta programada errada.
+-Porta de destino fechada.
+</li>
+<li> 32 Bateria em curto ou invertida -A bateria da central está em curto ou invertida.
+</li>
+
+</ul>
+
+</ol>
+  </strong>
+ 
+  </details>
+
+  <details>
+    <summary class="lista">Progamação das Zonas
+    </summary>
+    <ol>
+      
+      <li>001 a 032 Tipo da zona</li>
+      
+      <strong>
+        <ul>
+          <li>00 Desabilitada</li>
+          <li>10 Imediata</li>
+          <li>11 Tempo de entrada e saída 1</li>
+          <li>12 Tempo de entrada e saída 2</li>
+          <li>13 Seguidora</li>
+          <li>14 24 Horas</li>
+          <li>15 Ronda</li>
+          <li> 16 24H pânico</li>
+          <li>17 Monitora disparo do eletrificador*</li>
+          <li>18 Monitora arme/desarme do eletrificador*</li>
+        </ul>
+      </strong>
+         <li>101 a 132 Programação dos atributos da zona</li>
+
+         <strong>
+          <ul>
+            <li>TECLA1 Partição A</li>
+            <li> TECLA2 Partição B</li>
+            <li>TECLA3 Partição C*</li>
+            <li>TECLA4 Partição D*</li>
+            <li>TECLA5 Stay</li>
+            <li>   
+              TECLA6 Inteligente</li>
+            <li> TECLA7 Silenciosa</li>
+            <li> TECLA8 Autoanulável</li>
+            <li>TECLA9 Permite inibir</li>
+          </ul>
+      </strong>
+            <li>601 a 632 Nome da zona Escrever texto com até 9 caracteres Zona xx</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary class="lista">Progamação de Comunicação</summary>
+    <ul>
+      <p>Opções de comunicação</p>
+      <strong>
+        <ul>
+          <li>700 Opções de reporte</li>
+          <ul>
+            <li>TECLA1 Habilita reporte via linha telefônica </li>
+              <li>TECLA2 Habilita reporte via GPRS</li>
+              <li>TECLA3 Habilita reporte via Ethernet/Wireless</li>
+              <li>TECLA4 Habilita função discadora no disparo*</li>
+              <li> TECLA5 Habilita envio de SMS no disparo
+              </li>
+              <li> TECLA6 Habilita envio de SMS no arme/desarme
+              </li>
+              <li> TECLA7 Inverter prioridade de comunicação
+              </li>
+              <li> TECLA8 Habilita modo duplo de reporte
+              </li>
+              <li> TECLA9 Habilita DHCP
+              </li>
+
+          </ul>
+          <li> 701 Opções de acesso remoto</li>
+          <ul>
+            <li>TECLA1 Habilita acesso por SMS
+               </li>
+              <li>TECLA2 Habilita acesso via telefone*</li>
+              <li>TECLA3 Habilita responder status por SMS ao receber
+                uma chamada de um celular cadastrado
+                (status por chamada)</li>
+              <li>TECLA4 Habilita acesso via aplicativo de celular</li>
+              <li>TECLA5 Habilita envio de notificações no disparo</li>
+             <li> TECLA6 Habilita envio de notificações no arme/desarme</li>
+              <li>TECLA7 Habilita acesso remoto via programador</li> 
+          </ul>
+          <li>702 e 703 Endereço IP de destino 1 e 2 Escrever texto com até 36 caracteres</li>  
+            <li>704, 705, 708 e 709 Conta das partições A a D
+              Valor com 4 dígitos. Permite programar caracteres
+              hexadecimais</li>
+            
+            <li>706 e 707 Porta  A a de comunicação para o IP1 e IP2 Valor com 4 dígitos</li>  
+            <li>711 e 712 Telefone da estação de monitoramento 1 e 2 Digitar o telefone com até 24 números </li>   
+            <li>721 e 731 Código PIN do sim card 1 e 2 Valor com 4 dígitos ----</li>
+            <li>722 a 724 APN, login e senha do sim card 1 ----</li>
+            <li>732 a 734 APN, login e senha do sim card 2 ----</li>
+            <li>740 Endereço IP da central Digitar o IP usando * como ponto ----</li>
+             <li>741 Máscara de sub-rede Digitar o IP usando * como ponto ----</li>
+            <li>742 Gateway padrão Digitar o IP usando * como ponto ----</li>
+           <li> 743 Servidor DNS Digitar o IP usando * como ponto ----</li>
+            <li>744 Porta de comunicação do módulo Ethernet/Wireless Valor com 4 dígitos 9090</li>
+           <li> 745 Porta de comunicação do aplicativo celular Valor com 4 dígitos 9080</li>
+            <li>746 SSID para conexão Wireless Escrever texto com até 32 caracteres ----</li>
+           <li> 747 Senha para conexão Wireless Escrever texto com até 24 caracteres ----</li>
+           <li> 751 a 754 Telefones para a função discadora/SMS Digitar o número de telefone e pressionar ENTER ----</li>
+           <li> 761 Número de rings para atender chamada* Valor com 3 dígitos de 000 a 015. 000 desabilita 008</li>
+            <li>762 Telefone para call back* Digitar o número de telefone e pressionar ENTER ----</li>
+           <li> 763 e 764 Código do painel e código do PC* Valor com 4 dígitos ----</li>
+            <li>771 Endereço DDNS Escrever texto com até 32 caracteres ----</li>
+           <li> 772 Senha DDNS Escrever texto com até 12 caracteres ----</li>
+            <li>781 e 782 Valor com 9 dígitoss</li> 
+           
+        </ul>
+      </strong>
+    </ul>
+  </details>
+
+  <details>
+    <summary class="lista">Opções Gerais e de Teclado </summary>
+    <ul>
+      <strong>OPÇÕES GERAIS E DE TECLADO
+        <ul>
+          <p>Opções de zonas com fio</p>
+          <li>804 Opções de zonas com fio</li>
+          <ul>
+             <li> TECLA1 Zonas com resistor de fim de linha
+              1</li>
+              <li>TECLA2 Dispara a sirene com curto de zona e alarme desarmado</li>
+              <li>TECLA3 Habilita zonas duplas</li>
+              <li>TECLA4 Reconhecimento de tamper de zona com fio</li> 
+          </ul>
+          <p>Campos Para Alterações de Senhas</p>
+          <li>200 Senha do usuário mestre Senha com 4 ou 6 dígitos 1234</li>
+               <li>201 a 298 Senha dos usuários Senha com 4 ou 6 dígitos ----</li>
+               <li>299 Senha do instalador Senha com 4 ou 6 dígitos 5678</li>
+ 
+          </ul>
+        </ul>
+      </strong>
+    </ul>
+  </details>
+</div>
+  <p>Para <strong>BAIXAR</strong> o manual completo <a href="/suporte/manuais/jfl-download-monitoraveis-manual-active-20-ethernet-.pdf">CLIQUE AQUI</a>.</p>
+  <p>Para <strong>BAIXAR</strong> o manual resumido <a href="/suporte/manuais/campos_de_enderecos_active_8_20_32.pdf">CLIQUE AQUI</a>.</p>
+  <img src="/suporte/imagens/logo_fudo_de_tela300.png" alt="">
+</body>
+</html>
