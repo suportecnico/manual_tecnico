@@ -1,0 +1,38 @@
+<!-- <h1>DROGASIL</h1>
+    <div class="estilo">
+        <div id="saude">teste</div> 
+        <br>
+        <div id="med">Medicamentos</div>
+        <br>
+        <div id="med">Medicamentos</div>
+        <br>
+        <div id="med">Medicamentos</div>
+        <br>
+        <div id="med">Medicamentos</div>
+    </div>
+    <a href=""></a>
+
+        <!-- <style>
+
+        .estilo {
+            padding: 10px;
+            margin: auto;
+            width: 600px;
+            display: inline;
+        }
+        #saude {
+            background-color: rgba(185, 247, 188, 0.712);
+            width: 100px;
+            height: 100px;
+            text-align: center;
+           margin: 0px;
+        }
+        #med {
+            background-color: rgba(247, 185, 204, 0.534);
+            width: 100px;
+            height: 100px;
+            text-align: center;
+           margin: 0px;
+        }
+           
+    </style> -->
