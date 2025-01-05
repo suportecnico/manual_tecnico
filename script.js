@@ -16,7 +16,7 @@ function oncar () {
     ctvei.innerHTML = '<p>Aqui vamos colocar as descrições das manutenções</p>'
     ctvei.style.textAlign = 'justify'
     ctvei.style.textIndent = '20px'
-    ivei.src = '../imagens/motor.jpg'
+    ivei.src = '../imagens/dz_cube_brushless_24V.png'
 }
 function offcar() {
     ctvei.innerHTML = '<p>Aqui veremos os gabaritos de manutenções de <strong>motores</strong>, centrais <strong>automatizadoras (placas)</strong> e seus acessórios, como por exemplo, uma <strong>fotocélula</strong>.</p>'
