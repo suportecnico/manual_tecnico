@@ -29,7 +29,7 @@ function onped () {
     ctped.innerText = 'Aqui vamos colocar as descrições das manutenções'
     ctped.style.textAlign = 'justify'
     ctped.style.textIndent = '20px'
-    iped.src = '/imagens/camera.btn.png'
+    iped.src = '../imagens/pec13t.png'
 }
 function offped () {
     ctped.innerHTML = '<p>Aqui veremos os gabaritos de manutenções dos <strong>controles de acesso</strong>, como o Módulo Guarita, <strong>leitores</strong>, <strong>fechaduras</strong> e seus acessórios.</p>'
