@@ -62,17 +62,17 @@ main {
     
 } 
 
-main h2 {
+/* main h2 {
     background-image: linear-gradient(to right, var(--cor3), transparent);
     text-align: start;
     text-indent: 10px;
     
-}
-main h3 {
+} */
+/* main h3 {
     background-image: linear-gradient(to right, var(--cor3), transparent);
     text-align: start;
     text-indent: 10px;
-}
+} */
 main p {
     /* text-indent: 30px;
     text-align: justify; */
@@ -90,12 +90,20 @@ main input {
 main article  {
     text-align: center;
 }
+
+main details {
+    width: 300px;
+    margin: auto;
+}
+
 main details > summary{
     list-style: none;
     margin: 1px;
+    margin-bottom: 20px;
     padding: 5px;
-    background-color: var(--cor2);
+    background-image: linear-gradient(to right, var(--cor3), transparent);
     border-radius: 50px;
+    
 }
 main ul {
     background-color: var(--cor7);
