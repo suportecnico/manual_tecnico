@@ -99,7 +99,7 @@ main details {
 main details > summary{
     list-style: none;
     margin: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 5px;
     background-image: linear-gradient(to right, var(--cor3), transparent);
     border-radius: 50px;
