@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <style>
+
+        @charset "utf-8";
+        /*  */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        /*  */
+        #one {
+            background-color: rgb(15, 15, 107);
+            margin-bottom: 1px;
+            width: 100vw;
+            height: 150px;
+        }
+        /*  */
+        #two {
+            background-color: rgb(67, 67, 148);
+            margin-bottom: 1px;
+            width: 100vw;
+            height: 120px;
+        }
+        /*  */
+        #tree {
+            background-color: rgb(107, 107, 219);
+            margin-bottom: 1px;
+            width: 100vw;
+            height: 120px;
+        }
+        /*  */
+        #four {
+            background-color: rgb(184, 184, 243);
+            margin-bottom: 1px;
+            width: 100vw;
+            height: 120px;
+        }
+        #five {
+            background-color: rgb(209, 209, 243);
+            margin-bottom: 1px;
+            width: 100vw;
+            height: 120px;
+        }
+        /*  */
+        .imagens {
+           display: inline-block;
+           width: ;
+        }        
+    </style>
+</head>
+<body>
+    <div id="one">
+        <div>
+
+        </div>
+    </div>
+    <!--  -->
+    <div id="two">
+        <div class="imagens">
+            <img src="imagens/icon (2).ico" alt="">
+        </div>
+    </div>
+    <!--  -->
+    <div id="tree">3</div>
+    <!--  -->
+    <div id="four">4</div>
+    <!--  -->
+    <div id="five">5</div>
+</body>
+</html>
