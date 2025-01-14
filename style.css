@@ -71,12 +71,13 @@ main h2 {
     text-align: start;
     text-indent: 10px;
     
-}
+} 
 main h3 {
     background-image: linear-gradient(to right, var(--cor3), transparent);
     text-align: start;
     text-indent: 10px;
 }
+
 main p {
     /* text-indent: 30px;
     text-align: justify; */
