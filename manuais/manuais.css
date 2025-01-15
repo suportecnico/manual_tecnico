@@ -96,7 +96,13 @@ main details {
     margin: auto;
 }
 
-main details > summary{
+main details > .sumint {
+    width: 175px;
+    margin-left: 100px;
+
+}
+
+main details > summary {
     list-style: none;
     margin: 1px;
     margin-bottom: 10px;
@@ -108,6 +114,7 @@ main details > summary{
 main ul {
     background-color: var(--cor7);
     text-align: start;
+    
 }
 /* Conteúdo principal */
 footer {
