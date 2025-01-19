@@ -55,7 +55,7 @@ menu > ul > li > a {
     text-decoration: none;
     background-image: linear-gradient(to top, var(--cor3), transparent, var(--cor3));
     color: var(--cor5);
-    border-top: 2px solid var(--cor3);
+    border-top: 2px solid var(--cor5);
 }
 
 menu > ul {
