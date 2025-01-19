@@ -32,7 +32,7 @@ header > h1 {
 }
 
 #burguer {
-    background-color: var(--cor3);
+    background-image: linear-gradient(to top, var(--cor3), transparent, var(--cor3));
     display: block;
     text-align: center;
     color: white;
@@ -40,7 +40,7 @@ header > h1 {
 }
 
 #burguer:hover {
-    background-color: var(--cor2);
+    background-image: linear-gradient(to top, transparent, var(--cor3), transparent);
     color: var(--cor0);
 }
 
@@ -53,7 +53,7 @@ menu > ul > li > a {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    background-color: var(--cor0);
+    background-image: linear-gradient(to top, var(--cor3), transparent, var(--cor3));
     color: var(--cor5);
     border-top: 2px solid var(--cor3);
 }
