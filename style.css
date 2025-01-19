@@ -19,11 +19,11 @@
 }
 
 html, body {
-    background-color: var(--cor2);
+    background-color: var(--cor6);
 }
 
 header {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
 }
 
 header > h1 {
@@ -32,7 +32,7 @@ header > h1 {
 }
 
 #burguer {
-    background-color: var(--cor0);
+    background-color: var(--cor3);
     display: block;
     text-align: center;
     color: white;

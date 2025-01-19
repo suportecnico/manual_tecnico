@@ -14,10 +14,10 @@
        <!-- cabeçalho -->
         <header>
             <h1>Suporte à Segurança Eletrônica</h1>
-            <span id="burguer" class="material-symbols-outlined">
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
                 menu
                 </span>
-            <menu>
+            <menu id="itens">
                 <ul>
                     <li><a href="">CFTV</a></li>
                     <li><a href="">C. ACESSO</a></li>
@@ -38,5 +38,16 @@
                 <p>Esperamos que esta publicação seja útil e cumpra com as finalidades a que se propõe.</p>
             </article>
         </main>
+
+        <script>
+            function clickMenu() {
+                if (itens.style.display == 'block') {
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'block'
+                }
+            }
+        </script>
+
     </body>
 </html>
