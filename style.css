@@ -48,7 +48,7 @@ menu {
     display: none;
 }
 
-menu > ul > li > a {
+/* menu > ul > li > a {
     display: block;
     padding: 10px;
     text-align: center;
@@ -64,7 +64,7 @@ menu > ul {
 
 menu > ul > li > a:hover {
     background-color: var(--cor2);
-}
+} */
 
 main {
     width: 90vw;
@@ -73,6 +73,46 @@ main {
     background-color: var(--cor5);
     padding: 10px;
     border-radius: 10px;
+}
+
+div#icftv {
+    display: block;
+    background-color: var(--cor2);
+    width: 100%;
+    height: 50px;
+    color: var(--cor5);
+}
+
+div#iacesso {
+    display: block;
+    background-color: var(--cor2);
+    width: 100%;
+    height: 50px;
+    color: var(--cor5);
+}
+
+div#ialarme {
+    display: block;
+    background-color: var(--cor2);
+    width: 100%;
+    height: 50px;
+    color: var(--cor5);
+}
+
+div#icerca {
+    display: block;
+    background-color: var(--cor2);
+    width: 100%;
+    height: 50px;
+    color: var(--cor5);
+}
+
+div#ifone {
+    display: block;
+    background-color: var(--cor2);
+    width: 100%;
+    height: 50px;
+    color: var(--cor5);
 }
 
 article > h2 {
